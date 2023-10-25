@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="container p-3">
+      <form action="/register/medicine" method="post">
+        
+      <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">medicine name</label>
+        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="enter medicine name" name="name">
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">day</label>
+        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Enter Day number MON[1] to SUN[7]" name="day">
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Hrs</label>
+        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Enter time in hours" name="hrs">
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Minutes</label>
+        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Enter time in minutes" name="minutes">
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">service</label>
+        <input type="text" name="services" placeholder="Enter Service to avail" class="form-control" id="exampleFormControlInput1">
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">message</label>
+        <input type="text" name="msg" placeholder="Enter the text want display on message" class="form-control" id="exampleFormControlInput1">
+      </div>
+      <input type="submit" class="btn btn-primary btn-lg" value="Add Reminder">
+      </form>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+  </body>
+</html>
+
+
+
+
